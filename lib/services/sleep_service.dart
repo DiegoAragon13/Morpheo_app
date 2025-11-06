@@ -5,7 +5,7 @@ import 'gemini_service.dart'; // AGREGAR
 
 class SleepService {
   static const String baseUrl =
-      'https://wmzcp7fbfa.execute-api.us-east-2.amazonaws.com/prod';
+      'your_URL_AWS';
   static const Duration timeout = Duration(seconds: 10);
 
   final GeminiService _geminiService = GeminiService(); // AGREGAR
