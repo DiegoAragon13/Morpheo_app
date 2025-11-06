@@ -5,7 +5,7 @@ import '../models/alarm.dart';
 
 class AlarmService {
   // 🌐 URL de tu API en AWS
-  static const String _baseUrl = 'https://wmzcp7fbfa.execute-api.us-east-2.amazonaws.com/prod';
+  static const String _baseUrl = 'your_URL_AWS';
 
   // 👤 ID del usuario (por ahora hardcodeado, luego será con Cognito)
   static const String _userId = 'Diego';
