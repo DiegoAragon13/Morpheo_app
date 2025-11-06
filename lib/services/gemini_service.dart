@@ -2,7 +2,7 @@ import 'package:flutter_gemini/flutter_gemini.dart';
 import '../models/sleep_data.dart';
 
 class GeminiService {
-  static const String _apiKey = 'AIzaSyBpKE8T8J-PIFlg2cUtWCBBBfSCzYHIkWk';
+  static const String _apiKey = 'Your_api_key';
   static Gemini? _instance;
 
   static void initialize() {
